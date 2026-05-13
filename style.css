@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7eef4;
+  color: #2b2b2b;
+}
+
+header {
+  background: linear-gradient(135deg, #7b1e55, #b83280);
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 22px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+h2 {
+  color: #7b1e55;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid div {
+  background: #f9ddec;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+button {
+  background: #7b1e55;
+  color: white;
+  border: none;
+  padding: 13px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #5d153f;
+}
+
+#ajuda {
+  display: none;
+  margin-top: 18px;
+  padding: 18px;
+  background: #f9ddec;
+  border-left: 6px solid #7b1e55;
+  border-radius: 10px;
+}
+
+.destaque {
+  background: #fff0f8;
+  border-left: 8px solid #b83280;
+}
+
+footer {
+  text-align: center;
+  background: #7b1e55;
+  color: white;
+  padding: 18px;
+}
+
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
