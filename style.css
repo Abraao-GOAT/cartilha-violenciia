@@ -90,6 +90,20 @@ footer {
   padding: 18px;
 }
 
+.imagem-mulher{
+  width: 250px;
+  border-radius: 10px;
+}
+
+.conteudo-primeira-secao{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-primeiro-texto{
+  width: 60%;
+}
+
 @media (max-width: 700px) {
   header h1 {
     font-size: 28px;
@@ -103,3 +117,4 @@ footer {
     padding: 15px;
   }
 }
+
